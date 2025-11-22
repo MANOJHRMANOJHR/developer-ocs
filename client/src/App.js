@@ -9,6 +9,7 @@ import NewProject from './pages/NewProject';
 import LogIn from './pages/LogIn';
 import './App.css';
 import Nav from './components/Nav';
+import Footer from './components/Footer/Footer';
 
 const App = () => (
   <Router>
@@ -20,9 +21,10 @@ const App = () => (
         <Route path="/saved" component={SavedProjects} />
         <Route path="/new" component={NewProject} />
         {/* <Route path="/edit/:id" component={NewProject} /> */}
-        <Route path="/allprojects" component={AllProjects} />>
+        <Route path="/allprojects" component={AllProjects} />
         <Route path="/" component={LogIn} />
       </Switch>
+      <Footer />
     </Container>
   </Router>
 );

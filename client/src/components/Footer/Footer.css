@@ -1,0 +1,37 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  z-index: 999;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-icon {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.footer-icon:hover {
+  color: #007bff;
+}
